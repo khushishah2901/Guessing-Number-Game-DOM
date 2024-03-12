@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/soch\ bhai.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.bich-ka-dabba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    height: 300px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgba(233, 150, 122, 0.845);
+}
+.box{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+.end{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+h1{
+    font-size: 37px;
+}
+
+button{
+    height: 38px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(91, 106, 235);
+}
